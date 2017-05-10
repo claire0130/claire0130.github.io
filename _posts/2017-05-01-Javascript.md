@@ -5,7 +5,7 @@ date:   2017-05-01
 categories: [JavaScript30]
 comments: true
 image:
-  feature: http://localhost:4000/img/js30-01.jpg
+  feature: https://claire0130.github.io/img/js30-01.jpg
 ---
 
 ### [HTML data-* attributes](http://blog.saltfactory.net/using-html5-custom-data-attributes/)
