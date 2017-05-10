@@ -5,62 +5,20 @@
     <description>Front-End Skill</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 10 May 2017 15:15:39 +0200</pubDate>
-    <lastBuildDate>Wed, 10 May 2017 15:15:39 +0200</lastBuildDate>
+    <pubDate>Wed, 10 May 2017 18:38:48 +0200</pubDate>
+    <lastBuildDate>Wed, 10 May 2017 18:38:48 +0200</lastBuildDate>
     <generator>Jekyll v3.4.2</generator>
     
       <item>
-        <title>Drun Kit</title>
-        <description>&lt;h3 id=&quot;html-data--attributes&quot;&gt;&lt;a href=&quot;http://blog.saltfactory.net/using-html5-custom-data-attributes/&quot;&gt;HTML data-* attributes&lt;/a&gt;&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;HTML5의 &lt;code class=&quot;highlighter-rouge&quot;&gt;Custom Data Attributes&lt;/code&gt; 데이터 표현이 가능&lt;/li&gt;
-  &lt;li&gt;태그에 대한 추가적인 정보를 제공하는 일종의 메타데이터(Metadata)&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;data-*&lt;/code&gt; 속성은 HTML 엘리먼트내에서 별다른 역할을 하지 않는 단순한 데이터&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;!--more--&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;data-key=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;65&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;key&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;kbd&amp;gt;&lt;/span&gt;A&lt;span class=&quot;nt&quot;&gt;&amp;lt;/kbd&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;sound&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;clap&lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;audio&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;data-key=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;65&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;sounds/clap.wav&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/audio&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h3 id=&quot;keyboardevent&quot;&gt;&lt;a href=&quot;https://developer.mozilla.org/ko/docs/Web/API/KeyboardEvent&quot;&gt;KeyboardEvent&lt;/a&gt;&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;키보드에 대한 사용자의 동작을 나타내는 개체&lt;/li&gt;
-  &lt;li&gt;입력받은 키는 개별 이벤트로 표시되고 동작의 종류는 이벤트의 종류 ( &lt;code class=&quot;highlighter-rouge&quot;&gt;keydown&lt;/code&gt; / &lt;code class=&quot;highlighter-rouge&quot;&gt;keypress&lt;/code&gt;/ &lt;code class=&quot;highlighter-rouge&quot;&gt;keyup&lt;/code&gt; )로 표시&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;classlist&quot;&gt;&lt;a href=&quot;https://developer.mozilla.org/ko/docs/Web/API/Element/classList&quot;&gt;classList&lt;/a&gt;&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;add&lt;/code&gt; : 요소의 클래스 목록에 &lt;code class=&quot;highlighter-rouge&quot;&gt;클래스 추가&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;remove&lt;/code&gt; : 요소의 클래스 목록에서 &lt;code class=&quot;highlighter-rouge&quot;&gt;클래스 삭제&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;toggle&lt;/code&gt; : 요소의 클래스 목록 중 특정 &lt;code class=&quot;highlighter-rouge&quot;&gt;클래스 전환&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;contains&lt;/code&gt; : 요소의 클래스 목록이 특정 &lt;code class=&quot;highlighter-rouge&quot;&gt;클래스를 포함 여부 확인&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;transitionend&quot;&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/Events/transitionend&quot;&gt;transitionend&lt;/a&gt;&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;CSS3의 &lt;code class=&quot;highlighter-rouge&quot;&gt;transition&lt;/code&gt;가 완료된 이후에 발생하는 이벤트&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;removeTransition&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;propertyName&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!==&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'transform'&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;// console.log(e.propertyName);&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;classList&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;remove&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'playing'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// css의 'transition: all 0.07s;' 속도에 맞춰서 `.playing` 삭제&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;nx&quot;&gt;keys&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;forEach&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;key&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;addEventListener&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'transitionend'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;removeTransition&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
+        <title>Claire github</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://github.com/claire0130&quot;&gt;Claire github&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 01 May 2017 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/articles/2017-05/Javascript</link>
-        <guid isPermaLink="true">http://localhost:4000/articles/2017-05/Javascript</guid>
+        <link>http://localhost:4000/articles/2017-05/DrunKit</link>
+        <guid isPermaLink="true">http://localhost:4000/articles/2017-05/DrunKit</guid>
         
         
-        <category>JavaScript30</category>
+        <category>etc</category>
         
       </item>
     
